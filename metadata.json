@@ -1,0 +1,7 @@
+{
+  "name": "Autonomous 5-Agent AIP System",
+  "description": "A multi-agent material simulation dashboard that interacts with local AI models for various tasks including chat, image generation, video creation, and live voice assistance.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

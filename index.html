@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Autonomous 5-Agent System | Material Simulation</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-javascript.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Roboto+Mono&display=swap" rel="stylesheet">
+    <style>
+      body {
+        margin: 0;
+        background-color: #121212;
+        color: #eee;
+        font-family: 'Inter', sans-serif;
+        height: 100vh;
+        overflow: hidden;
+      }
+      .font-mono {
+        font-family: 'Roboto Mono', monospace;
+      }
+      /* PrismJS Code Highlighting Theme */
+      pre[class*="language-"] {
+          margin: 0;
+          padding: 10px;
+          border-radius: 6px;
+          background: #121212;
+          font-size: 0.9em;
+          white-space: pre-wrap;
+          word-break: break-all;
+          border: 1px solid #333;
+      }
+      .token.string { color: #81C784; }
+      .token.keyword { color: #BB86FC; }
+      .token.comment { color: #666666; }
+      .token.function { color: #03DAC6; }
+      .token.punctuation { color: #ccc; }
+      .token.operator { color: #BB86FC; }
+      .token.number { color: #fabd2f; }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/"
+  }
+}
+</script>
+</head>
+<body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+</body>
+</html>
