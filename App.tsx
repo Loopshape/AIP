@@ -655,7 +655,6 @@ function App() {
                  <div id="prompt-container" className="fixed top-[45%] left-1/2 -translate-x-1/2 -translate-y-1/2 flex gap-3 z-20 w-[min(90vw,700px)] bg-black/20 backdrop-blur-lg border border-white/10 rounded-xl p-4 shadow-2xl items-center pointer-events-auto">
                     <input type="text" value={prompt} onChange={(e) => setPrompt(e.target.value)} onKeyDown={e => e.key === 'Enter' && handleDashboardSubmit()} placeholder="Enter command or question..." className="flex-grow bg-transparent border-b-2 border-white/20 focus:border-[#BB86FC] text-white p-2 outline-none transition-colors" disabled={isGenerating}/>
                     <select value={selectedTextModel} onChange={e => setSelectedTextModel(e.target.value)} className="bg-black/30 border border-white/10 rounded-lg p-2 text-xs focus:ring-0 focus:outline-none focus:border-[#BB86FC]">
-                        <option value="deepseek-v3.1:671b-cloud">Model: Deepseek</option>
                         <option value="gemini-2.5-flash">Model: Flash</option>
                         <option value="gemini-2.5-flash-lite">Model: Flash Lite</option>
                     </select>
